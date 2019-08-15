@@ -11,4 +11,4 @@ The process
 4. Merge the lines in h_spot.txt to a comma-seperated string, e.g. by doing
    - ":1,$s/\n/,/" in vi
 5. Get your playlist's id using: https://developer.spotify.com/console/get-current-user-playlists/
-6. Add your tracks by inserting the playlist id and the string of tracks into: https://developer.spotify.com/console/post-playlist-tracks/
+6. Add your tracks by inserting the playlist id (from 5.) and the string of tracks (from 4.) into: https://developer.spotify.com/console/post-playlist-tracks/
