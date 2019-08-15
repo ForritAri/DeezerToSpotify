@@ -6,7 +6,7 @@ The process
         i) save the web page to hlaup.txt
         ii) grep "itemprop=\"name\">" hlaup.txt  > h.txt
         iii) cleanup h.txt, e.g. in vi using ":1,$s/.*"name">//" and ":1,$s/<\/span>//"
-    2) Goto https://developer.spotify.com/console/get-search-item/ to create a token (used in Bearer below)
+    2) Goto https://developer.spotify.com/console/get-search-item/ to create a token (used in playlist.py)
     3) Create the list of Spotify track ids: python3 playlist.py h.txt > h_spot.txt
     4) Merge the lines in h_spot.txt to a comma-seperated string, e.g. by doing
         i) ":1,$s/\n/,/" in vi
