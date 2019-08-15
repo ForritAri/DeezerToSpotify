@@ -3,7 +3,7 @@ import os
 import requests
 import json
 
-# The Bearer token needs to be replaced, see the README.
+# The Bearer token needs to be replaced, see the README. Note that it expires after some minutes (30min?)
 
 filepath = sys.argv[1]
 
