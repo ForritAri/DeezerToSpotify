@@ -21,5 +21,4 @@ with open(filepath) as fp:
         data = response.json()
 
         uri = data['tracks']['items'][0]['uri']
-        print(uri)
-~
+        print(uri, end=',')
